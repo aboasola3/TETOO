@@ -129,19 +129,9 @@ else
   chmod 777 launch.sh
 echo -e "                                         \033[38;5;208m"
 echo -e "--------------------------------------------------------\e[36m"
-echo -e " _____ ____     ____   ___ _____                        \e[36m"
-echo -e "|_   _|  _ \   | __ ) / _ \_   _|                       \e[36m"
-echo -e "  | | | |_) |  |  _ \| | | || |                         \e[36m"
-echo -e "  | | |  __/   | |_) | |_| || |                         \e[36m"
-echo -e "  |_| |_|      |____/ \___/ |_|                         \e[36m"
-echo -e "                                                        \e[36m"                                 
-echo -e "KASPER  TP (BY @kasper_dev)                             \e[36m"
-echo -e " _  __    _    ____  ____  _____ ____     _____ ____    \e[36m"
-echo -e "| |/ /   / \  / ___||  _ \| ____|  _ \   |_   _|  _ \   \e[36m"
-echo -e "| ' /   / _ \ \___ \| |_) |  _| | |_) |    | | | |_) |  \e[36m"
-echo -e "| . \  / ___ \ ___) |  __/| |___|  _ <     | | |  __/   \e[36m"
-echo -e "|_|\_\/_/   \_\____/|_|   |_____|_| \_\    |_| |_|      \e[36m"
-echo -e "                                                        \e[36m"
+echo -e "          bot       @k3k44_bot         \e[36m"
+echo -e "          dev          @no_no2            \e[36m"
+echo -e "           Ch              @xOx_tema_xOx   \e[36m"
 echo -e "--------------------------------------------------------\e[36m"
-  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/TPBOT.lua -l 1 -E $@
+  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/TETOO.lua -l 1 -E $@
 fi
